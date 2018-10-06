@@ -1,17 +1,15 @@
-Domestic-Workers
-================
-This project is meant to create a system which takes inputs from users on how much they pay or think they should pay a domestic worker
-and tells them more about what that amount means to the lives of a domestic worker's household.
-The user upon learning about the meaning of the payment can then adjust the amount they suggested and should be able to, in real time,
-see what that implies.
+# Living Wage &middot; ![stability-wip](https://img.shields.io/badge/stability-work_in_progress-lightgrey.svg)
 
-Assumptions can be altered, including the costs for health in a month, education, transport, and the cost for getting 2000 calories
-per day per person
+This repository contains all user-facing code required to render [living-wage.co.za](http://living-wage.co.za/).
 
-There will be some core data in the backend including how they compare to minimum wage as well as information on costs for
-per person health, per child education, transportation, rent, and communications.
+Initially developed by [OpenUp](https://openup.org.za/). However, project is now maintained on a volunteer basis by the [Codebridge Newlands community](https://www.facebook.com/codebridge.newlands/).
 
-Deployment
-==========
+## Getting Started
 
-This project is static HTML and Javascript and is served directly from the gh-pages branch on GitHub.
+### Local development
+
+1. Clone this project by running `git clone https://github.com/codebridge-za/living-wage.git`.
+2. Make sure you have the latest [NodeJS](https://nodejs.org/en/) installed.
+3. Run `npm install` in the root folder of the repository.
+4. Run `npm start` to spin up the development server.
+5. Open `localhost:8000` in your browser.
