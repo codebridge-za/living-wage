@@ -1,0 +1,22 @@
+{
+  "name": "living-wage",
+  "version": "1.0.0",
+  "description": "What are the living wage requirements for domestic workers?",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codebridge-za/living-wage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codebridge-za/living-wage/issues"
+  },
+  "homepage": "https://github.com/codebridge-za/living-wage#readme",
+  "devDependencies": {
+    "serve": "^10.0.2"
+  }
+}
