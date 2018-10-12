@@ -1,4 +1,4 @@
-# Living Wage &middot; ![stability-wip](https://img.shields.io/badge/stability-work_in_progress-lightgrey.svg)
+# Living Wage &middot; ![](https://img.shields.io/badge/stability-work_in_progress-lightgrey.svg) [![](https://img.shields.io/badge/slack%20channel-%23living--wage--project-blue.svg)](https://zatech.github.io/)
 
 This repository contains all user-facing code required to render [living-wage.co.za](http://living-wage.co.za/).
 
