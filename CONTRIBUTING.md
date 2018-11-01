@@ -1,3 +1,5 @@
+To read more about contributing to open source see https://opensource.guide/
+
 # Submitting a PR
 
 **All Pull Requests should be made against dev (even bug fixes).**
