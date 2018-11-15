@@ -21,3 +21,15 @@ The purpose of this calculator is to assist the user to determine a realistic wa
 3. Run `npm install` in the root folder of the repository.
 4. Run `npm start` to spin up the development server.
 5. Open `localhost:8000` in your browser.
+
+### Testing
+
+It is recommended to test on an webserver such as Apache. 
+However, this calculator is so simple you can just test it by opening the index.html.
+
+### Technologies
+1. HTML
+2. CSS
+3. JavaScript
+4. jQuery
+5. Bootstrap

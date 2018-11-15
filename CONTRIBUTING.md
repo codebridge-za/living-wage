@@ -35,4 +35,4 @@ git push origin my-fix
 - Never add a trailing comma to multiline lists in JS
 - Don't add extra spaces between parenthesis, i.e. do foo(1, 2), not foo( 1, 2 )
 - Always use spaces around binary operators, i.e. $i = 0, not $i=0
-- Use CamelCase for member variables/functions and snake_case for local variables/global functions
+- Use camelCase for variables and PascalCase for class constructors.
