@@ -191,7 +191,7 @@ function update_sliders(rate) {
     $("#outer-pay-amount-day").hide();
     $("#outer-pay-amount-week").hide();
     $("#outer-pay-amount-month").hide();
-    
+
     // Show the slider matching the selected rate.
     $("#outer-pay-amount-" + rate).show();
 }
@@ -202,7 +202,7 @@ function update_output() {
     var household_size = $("#household-size").val();
     var pay_rate = $("#pay-rate").val();
     var pay_amount = $("#pay-amount-" + pay_rate).val();
-    
+
     if (validate_input(household_size, pay_rate, pay_amount)) {
         var monthly_expenditure = calculate_expenditure(household_size);
 
@@ -335,8 +335,8 @@ $(document).ready(function() {
         update_display('display-assumptions');
     })
 
-    function rand_formater(value) {
-        return value + ' rand';
+    function rand_formater(value, symbol = 'R') {
+        return symbol + ' ' + value;
     }
 
     function child_formater(value) {
